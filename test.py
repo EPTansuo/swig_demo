@@ -1,6 +1,6 @@
 #!/bin/env python
 
-from mymodule import MyClass
+from mymodule import MyClass,MyString
 
 
 
@@ -16,3 +16,9 @@ obj.myprint()
 print(obj)
 
 print(obj.getStrValue())
+
+s = MyString("abc")
+s = s + MyString("ss")
+print(s)
+
+
